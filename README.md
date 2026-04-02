@@ -1,9 +1,9 @@
 # LincBank – C++ Banking Application
-Course: CMP2801M – Advanced Programming
-Institution: University of Lincoln
-Grade Received: 80%
-Language: C++17
-Tools: Visual Studio 2019, Git
+- Course: CMP2801M – Advanced Programming
+- Institution: University of Lincoln
+- Grade Received: 80%
+- Language: C++17
+- Tools: Visual Studio 2019, Git
 
 # Overview
 LincBank is a command-line banking simulation written in modern C++. It allows users to create multiple account types (Current, Savings, ISA), perform deposits/withdrawals/transfers, and project compound interest on savings accounts. The project demonstrates advanced C++ techniques, including abstract base classes, polymorphism, manual memory management, and STL containers.
@@ -19,11 +19,11 @@ The application does not persist data – all accounts and transactions exist on
 - Transaction history: Each account stores timestamps, amounts, and transaction types
 
 # Technologies Used
-Language: C++17
-STL Components: vector, string, ctime, cmath
-OOP Paradigms: Abstract classes, pure virtual functions, multiple inheritance (interface)
-Memory Management: Raw pointers, dynamic allocation with new, manual delete in destructor
-Build System: Visual Studio Solution (.sln)
+- Language: C++17
+- STL Components: vector, string, ctime, cmath, sstream
+- OOP Paradigms: Abstract classes, pure virtual functions, multiple inheritance (interface)
+- Memory Management: Raw pointers, dynamic allocation with new, manual delete in destructor
+- Build System: Visual Studio Solution (.sln)
 
 # Class Architecture
 Account (abstract)
