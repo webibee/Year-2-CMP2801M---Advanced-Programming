@@ -1,0 +1,6 @@
+﻿  Assessment1.cpp
+C:\Users\benwe\Desktop\Assessment1\Assessment1.cpp(113,6): warning C4101: 'RecentlyViewedAccount': unreferenced local variable
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1765,1): error C2036: 'std::tuple<std::string,float,time_t> *': unknown size
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(1755): message : while compiling class template member function 'void std::vector<std::tuple<std::string,float,time_t>,std::allocator<std::tuple<std::string,float,time_t>>>::_Tidy(void) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(712): message : see reference to function template instantiation 'void std::vector<std::tuple<std::string,float,time_t>,std::allocator<std::tuple<std::string,float,time_t>>>::_Tidy(void) noexcept' being compiled
+C:\Users\benwe\Desktop\Assessment1\Assessment1.cpp(67): message : see reference to class template instantiation 'std::vector<std::tuple<std::string,float,time_t>,std::allocator<std::tuple<std::string,float,time_t>>>' being compiled
